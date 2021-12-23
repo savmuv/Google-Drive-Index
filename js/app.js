@@ -8,10 +8,9 @@ function init() {
    </div>
 </header>
 <div>
-
-<script src="https://pastebin.com/embed_js/8EQWVg9z?theme=dark"></script>
+<div class="alert alert-dismissible alert-primary" style="margin: 75px 50px -70px 50px;padding: 10px;">
 <iframe src="https://pastebin.com/embed_iframe/8EQWVg9z?theme=dark" style="border:none;width:100%"></iframe>
-
+</div>
 <div id="content" style="padding-top: ${UI.header_padding}px;${UI.fixed_footer ?' padding-bottom: clamp(170px, 100%, 300px);': ''}">
 </div>
 <div class="modal fade" id="SearchModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="SearchModelLabel" aria-hidden="true">
