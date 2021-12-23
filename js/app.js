@@ -802,12 +802,12 @@ function file_others(path) {
   <div class="${UI.file_view_alert_class}" id="file_details" role="alert">${obj.name}<br>${size}</div>
 </div>
 <div class="card-body">
-// <div class="input-group mb-4">
-//   <div class="input-group-prepend">
-//     <span class="input-group-text" id="">Full URL</span>
-//   </div>
-//   <input type="text" class="form-control" id="dlurl" value="${url}">
-// </div>
+<div class="input-group mb-4">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="">Full URL</span>
+  </div>
+  <input type="text" class="form-control" id="dlurl" value="${url}" style="color: #fff;">
+</div>
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
     <div class="btn-group text-center">
@@ -882,12 +882,12 @@ function file_code(path) {
 </div>
 </div>
 <div class="card-body">
-// <div class="input-group mb-4">
-//   <div class="input-group-prepend">
-//     <span class="input-group-text" id="">Full URL</span>
-//   </div>
-//   <input type="text" class="form-control" id="dlurl" value="${url}">
-// </div>
+<div class="input-group mb-4">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="">Full URL</span>
+  </div>
+  <input type="text" class="form-control" id="dlurl" value="${url}" style="color: #fff;">
+</div>
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
     <div class="btn-group text-center">
@@ -983,12 +983,12 @@ function file_video(path) {
   </script></br>
 ${UI.disable_video_download ? `` : `
 <div class="card-body">
-// <div class="input-group mb-4">
-//   <div class="input-group-prepend">
-//     <span class="input-group-text" id="">Full URL</span>
-//   </div>
-//   <input type="text" class="form-control" id="dlurl" value="${url}">
-// </div>
+<div class="input-group mb-4">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="">Full URL</span>
+  </div>
+  <input type="text" class="form-control" id="dlurl" value="${url}" style="color: #fff;">
+</div>
 ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
     <div class="btn-group text-center">
         <a href="https://r3adyt0download.com/dwr8Zfe5aa0fd926c8f8723f4ccfb867a4161c299fe37?q={KEYWORD}" type="button" class="btn btn-primary">Get Link</a>
@@ -1066,12 +1066,12 @@ function file_audio(path) {
    const player = new Plyr('#vplayer');
   </script></br>
   <div class="card-body">
-// <div class="input-group mb-4">
-//   <div class="input-group-prepend">
-//     <span class="input-group-text" id="">Full URL</span>
-//   </div>
-//   <input type="text" class="form-control" id="dlurl" value="${url}">
-// </div>
+<div class="input-group mb-4">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="">Full URL</span>
+  </div>
+  <input type="text" class="form-control" id="dlurl" value="${url}" style="color: #fff;">
+</div>
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
     <div class="btn-group text-center">
@@ -1199,12 +1199,12 @@ function file_pdf(path) {
   <canvas id="the-canvas" style="max-width: 100%;"></canvas>
   </div>
   <div class="card-body">
-// <div class="input-group mb-4">
-//   <div class="input-group-prepend">
-//     <span class="input-group-text" id="">Full URL</span>
-//   </div>
-//   <input type="text" class="form-control" id="dlurl" value="${url}">
-// </div>
+<div class="input-group mb-4">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="">Full URL</span>
+  </div>
+  <input type="text" class="form-control" id="dlurl" value="${url}" style="color: #fff;">
+</div>
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
   <div class="btn-group text-center">
@@ -1310,12 +1310,12 @@ function file_image(path) {
   <img src="${url}" width="50%">
   </div>
   <div class="card-body">
-// <div class="input-group mb-4">
-//   <div class="input-group-prepend">
-//     <span class="input-group-text" id="">Full URL</span>
-//   </div>
-//   <input type="text" class="form-control" id="dlurl" value="${url}">
-// </div>
+<div class="input-group mb-4">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="">Full URL</span>
+  </div>
+  <input type="text" class="form-control" id="dlurl" value="${url}" style="color: #fff;">
+</div>
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
   <div class="btn-group text-center">
