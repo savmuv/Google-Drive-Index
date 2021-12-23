@@ -4,7 +4,7 @@
     ██║░░╚██╗██║░░██║██║░░░██╗░░██║░╚═══██╗░░░██║░░██║██╔══██╗██║░░╚██╗
     ╚██████╔╝██████╔╝██║██╗╚█████╔╝██████╔╝██╗╚█████╔╝██║░░██║╚██████╔╝
     ░╚═════╝░╚═════╝░╚═╝╚═╝░╚════╝░╚═════╝░╚═╝░╚════╝░╚═╝░░╚═╝░╚═════╝░
-                             v 2.0.22
+                             v 2.0.26.1
 A Script Redesigned by Parveen Bhadoo from GOIndex */
 
 // add multiple serviceaccounts as {}, {}, {}, random account will be selected by each time app is opened.
@@ -59,7 +59,7 @@ const authConfig = {
 
 const uiConfig = {
     "theme": "slate", // switch between themes, default set to vapor, select from https://www.npmjs.com/package/@googledrive/index
-    "version": "2.0.22.2", // don't touch this one. get latest code using generator at https://bdi-generator.hashhackers.com
+    "version": "2.0.26.1", // don't touch this one. get latest code using generator at https://bdi-generator.hashhackers.com
     // If you're using Image then set to true, If you want text then set it to false
     "logo_image": true, // true if you're using image link in next option.
     "logo_height": "", // only if logo_image is true
@@ -86,7 +86,7 @@ const uiConfig = {
     "file_count_alert_class": "alert alert-secondary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "contact_link": "https://telegram.dog/Telegram", // Link to Contact Button on Menu
     "copyright_year": "2021", // year of copyright, can be anything like 2015 - 2020 or just 2020
-    "company_name": "Oshekher", // Name next to copyright
+    "company_name": "Bhadoo", // Name next to copyright
     "company_link": "https://telegram.dog/Telegram", // link of copyright name
     "credit": true, // Set this to true to give us credit
     "display_size": true, // Set this to false to hide display file size
