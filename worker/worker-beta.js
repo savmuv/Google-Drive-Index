@@ -107,7 +107,7 @@ const uiConfig = {
     "plyr_io_video_resolution": "16:9", // For reference, visit: https://github.com/sampotts/plyr#options
     "unauthorized_owner_link": "https://telegram.dog/Telegram", // Unauthorized Error Page Link to Owner
     "unauthorized_owner_email": "abuse@telegram.org", // Unauthorized Error Page Owner Email
-    "arc_code": "jfmx2f29", // arc.io Integration Code, get yours from https://portal.arc.io
+    "arc_code": "bVJdQ8nY", // arc.io Integration Code, get yours from https://portal.arc.io
     "search_all_drives": false // turn this on to switch this to gdrive search application
 };
 
