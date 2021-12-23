@@ -7,10 +7,12 @@ function init() {
    <div id="nav">
    </div>
 </header>
-<div>
-<div class="alert alert-dismissible alert-primary" style="margin: 75px 50px -70px 50px;padding: 10px;">
-<iframe src="https://pastebin.com/embed_iframe/8EQWVg9z?theme=dark" style="border:none;width:100%"></iframe>
-</div>
+<div><div style="margin-bottom: -80px;margin-top: 85px;margin-left: auto;margin-right: auto;max-width: 1116px;"><div class="card border-warning mb-3">
+  <div class="card-header">New Upload</div>
+  <div class="card-body">
+    <iframe src="https://pastebin.com/embed_iframe/8EQWVg9z?theme=dark" style="border:none;width:100%;height: 150px;"></iframe>
+  </div>
+</div></div>
 <div id="content" style="padding-top: ${UI.header_padding}px;${UI.fixed_footer ?' padding-bottom: clamp(170px, 100%, 300px);': ''}">
 </div>
 <div class="modal fade" id="SearchModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="SearchModelLabel" aria-hidden="true">
