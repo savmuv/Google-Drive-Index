@@ -8,16 +8,7 @@ function init() {
    </div>
 </header>
 <div style="left:10px;position:fixed;width:160px;height:100%;">
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'e50656314f5a73de24a452da7431f110',
-		'format' : 'iframe',
-		'height' : 600,
-		'width' : 160,
-		'params' : {}
-	};
-	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://sinisterbatchoddly.com/e50656314f5a73de24a452da7431f110/invoke.js"></scr' + 'ipt>');
-</script>
+<script type=\"text/javascript\">\n\tatOptions = {\n\t\t\'key\' : \'e50656314f5a73de24a452da7431f110\',\n\t\t\'format\' : \'iframe\',\n\t\t\'height\' : 600,\n\t\t\'width\' : 160,\n\t\t\'params\' : {}\n\t};\n\tdocument.write(\'<scr\' + \'ipt type=\"text/javascript\" src=\"http\' + (location.protocol === \'https:\' ? \'s\' : \'\') + \'://sinisterbatchoddly.com/e50656314f5a73de24a452da7431f110/invoke.js\"><\/scr\' + \'ipt>\');\n<\/script>
 </div>
 <div>
 <div id="content" style="padding-top: ${UI.header_padding}px;${UI.fixed_footer ?' padding-bottom: clamp(170px, 100%, 300px);': ''}">
