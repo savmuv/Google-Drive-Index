@@ -9,16 +9,7 @@ function init() {
 </header>
 <div>
 <div style="left:10px;position:fixed;width:160px;height:100%;top:85px">
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'e50656314f5a73de24a452da7431f110',
-		'format' : 'iframe',
-		'height' : 600,
-		'width' : 160,
-		'params' : {}
-	};
-	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://sinisterbatchoddly.com/e50656314f5a73de24a452da7431f110/invoke.js"></scr' + 'ipt>');
-</script>
+<script src="https://cdn.jsdelivr.net/gh/savmuv/Google-Drive-Index/js/adu.js"></script>
 </div>
 <div id="content" style="padding-top: ${UI.header_padding}px;${UI.fixed_footer ?' padding-bottom: clamp(170px, 100%, 300px);': ''}">
 </div>
