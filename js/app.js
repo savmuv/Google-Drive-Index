@@ -9,8 +9,7 @@ function init() {
 </header>
 <div>
 <div style="left:10px;position:fixed;width:160px;height:100%;top:85px">
-<script type=\"text/javascript\">\n\tatOptions = {\n\t\t\'key\' : \'e50656314f5a73de24a452da7431f110\',\n\t\t\'format\' : \'iframe\',\n\t\t\'height\' : 600,\n\t\t\'width\' : 160,\n\t\t\'params\' : {}\n\t};\n\tdocument.write(\'<scr\' + \'ipt type=\"text/javascript\" src=\"http\' + (location.protocol === \'https:\' ? \'s\' : \'\') + \'://sinisterbatchoddly.com/e50656314f5a73de24a452da7431f110/invoke.js\"><\/scr\' + \'ipt>\');\n<\/script>
-</div>
+<img src="https://i.postimg.cc/FHkqhk8F/160600.jpg" border="0" alt="160x600"></div>
 <div id="content" style="padding-top: ${UI.header_padding}px;${UI.fixed_footer ?' padding-bottom: clamp(170px, 100%, 300px);': ''}">
 </div>
 <div class="modal fade" id="SearchModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="SearchModelLabel" aria-hidden="true">
