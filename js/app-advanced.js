@@ -6,8 +6,8 @@
       var html = `<div style="top:100px;left:100px;position:fixed;max-width:160px;height:100%">
   <script type="text/javascript">
 	atOptions = {'key' : 'e50656314f5a73de24a452da7431f110','format' : 'iframe','height' : 600,'width' : 160,'params' : {}};
-	document.write('<script type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://sinisterbatchoddly.com/e50656314f5a73de24a452da7431f110/invoke.js"></script>');
-</script>
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://sinisterbatchoddly.com/e50656314f5a73de24a452da7431f110/invoke.js"></scr' + 'ipt>');
+  </script>
   </div>
       <header>
      <div id="nav">
