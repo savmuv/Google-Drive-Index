@@ -16,7 +16,7 @@
 		'width' : 160,
 		'params' : {}
 	};
-	document.write("<script type="text/javascript" src="https://sinisterbatchoddly.com/e50656314f5a73de24a452da7431f110/invoke.js"></script>");
+	document.write('<script type="text/javascript" src="https://sinisterbatchoddly.com/e50656314f5a73de24a452da7431f110/invoke.js">' + '</script>');
 </script>
   </div>
   <div id="content" style="padding-top: ${UI.header_padding}px;${UI.fixed_footer ?' padding-bottom: clamp(170px, 100%, 300px);': ''}">
