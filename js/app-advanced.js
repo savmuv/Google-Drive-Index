@@ -3,10 +3,10 @@
   // Initialize the page
   function init() {
       document.siteName = $('title').html();
-      var html = `  <div style="top:100px;left:100px;position:fixed">
+      var html = `<div style="top:100px;left:100px;position:fixed">
 <script type="text/javascript">
 	atOptions = {'key' : 'e50656314f5a73de24a452da7431f110','format' : 'iframe','height' : 600,'width' : 160,'params' : {} };
-	document.write('<script type="text/javascript" src="https://sinisterbatchoddly.com/e50656314f5a73de24a452da7431f110/invoke.js"></' + 'script>');
+	document.write('<scr' + 'ipt type="text/javascript" src="https://sinisterbatchoddly.com/e50656314f5a73de24a452da7431f110/invoke.js"></scr' + 'ipt>');
 </script>
   </div>
       <header>
