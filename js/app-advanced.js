@@ -15,14 +15,6 @@ atOptions = {'key' : 'e50656314f5a73de24a452da7431f110','format' : 'iframe','hei
 var script = document.createElement('script'); script.src = "https://sinisterbatchoddly.com/e50656314f5a73de24a452da7431f110/invoke.js"; script.async = true;
 bocil.appendChild(script);
 </script>
-<div id="jien">
-</div>
-<script type="text/javascript">
-var bocah = document.getElementById('jien');
-atOptions = {'key' : 'b90ac0a24352acc0a6af1f9023551af6','format' : 'iframe','height' : 90,'width' : 728,'params' : {} };
-var script = document.createElement('script'); script.src = "https://sinisterbatchoddly.com/b90ac0a24352acc0a6af1f9023551af6/invoke.js"; script.async = true;
-bocah.appendChild(script);
-</script>
 <div>
 <div id="content" style="padding-top: ${UI.header_padding}px;${UI.fixed_footer ?' padding-bottom: clamp(170px, 100%, 300px);': ''}">
 </div>
