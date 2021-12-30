@@ -9,7 +9,7 @@
   </header>
   <div>
   <script type="text/javascript">
-  var bocil = document.getElementByID('kafka');
+  var bocil = document.getElementById('kafka');
   atOptions = {'key' : 'e50656314f5a73de24a452da7431f110','format' : 'iframe','height' : 600,'width' : 160,'params' : {} };
   var script = document.createElement('script'); script.src = "https://sinisterbatchoddly.com/e50656314f5a73de24a452da7431f110/invoke.js";
   bocil.appendChild(script);
