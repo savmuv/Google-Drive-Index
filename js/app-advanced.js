@@ -4,7 +4,10 @@
   function init() {
       document.siteName = $('title').html();
       var html = `<div style="top:100px;left:100px;position:fixed">
-  <iframe src="//sinisterbatchoddly.com/watchnew?key=e50656314f5a73de24a452da7431f110" width="160" height="600" frameborder="0" scrolling="no"></iframe>
+ <script type="text/javascript">
+	atOptions = {'key' : 'e50656314f5a73de24a452da7431f110','format' : 'iframe','height' : 600,'width' : 160,'params' : {} };
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://sinisterbatchoddly.com/e50656314f5a73de24a452da7431f110/invoke.js"></scr' + 'ipt>');
+</script>
   </div>
       <header>
      <div id="nav">
