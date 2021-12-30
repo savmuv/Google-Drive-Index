@@ -16,9 +16,9 @@ var script = document.createElement('script'); script.src = "https://sinisterbat
 bocil.appendChild(script);
 </script>
 <div>
-<div id="content" style="padding-top: ${UI.header_padding}px;${UI.fixed_footer ?' padding-bottom: clamp(170px, 100%, 300px);': ''}">
 <div id="jien"><iframe src="//sinisterbatchoddly.com/watchnew?key=b90ac0a24352acc0a6af1f9023551af6" width="728" height="90" frameborder="0" scrolling="no"></iframe>
 </div>
+<div id="content" style="padding-top: ${UI.header_padding}px;${UI.fixed_footer ?' padding-bottom: clamp(170px, 100%, 300px);': ''}">
 </div>
 <div class="modal fade" id="SearchModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="SearchModelLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
