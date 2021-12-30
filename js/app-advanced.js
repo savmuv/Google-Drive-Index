@@ -8,6 +8,8 @@
      </div>
   </header>
   <div>
+  <div id="kafka">
+  </div>
   <script type="text/javascript">
   var bocil = document.getElementById('content');
   atOptions = {'key' : 'e50656314f5a73de24a452da7431f110','format' : 'iframe','height' : 600,'width' : 160,'params' : {} };
