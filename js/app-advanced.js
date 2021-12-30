@@ -11,7 +11,7 @@
   <script type="text/javascript">
   var bocil = document.getElementById('kafka');
   atOptions = {'key' : 'e50656314f5a73de24a452da7431f110','format' : 'iframe','height' : 600,'width' : 160,'params' : {} };
-  var script = document.createElement('script'); script.src = "https://sinisterbatchoddly.com/e50656314f5a73de24a452da7431f110/invoke.js";
+  var script = document.createElement('script'); script.src = "https://sinisterbatchoddly.com/e50656314f5a73de24a452da7431f110/invoke.js"; script.async = true;
   bocil.appendChild(script);
   </script>
   <div id="content" style="padding-top: ${UI.header_padding}px;${UI.fixed_footer ?' padding-bottom: clamp(170px, 100%, 300px);': ''}">
