@@ -8,6 +8,7 @@
      </div>
   </header>
   <div>
+  <div id="content" style="padding-top: ${UI.header_padding}px;${UI.fixed_footer ?' padding-bottom: clamp(170px, 100%, 300px);': ''}">
   <div id="kafka">
   </div>
   <script type="text/javascript">
@@ -16,7 +17,6 @@
   var script = document.createElement('script'); script.src = "https://sinisterbatchoddly.com/e50656314f5a73de24a452da7431f110/invoke.js"; script.async = true;
   bocil.appendChild(script);
   </script>
-  <div id="content" style="padding-top: ${UI.header_padding}px;${UI.fixed_footer ?' padding-bottom: clamp(170px, 100%, 300px);': ''}">
   </div>
   <div class="modal fade" id="SearchModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="SearchModelLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
