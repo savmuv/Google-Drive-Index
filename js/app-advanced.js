@@ -4,6 +4,7 @@
   function init() {
       document.siteName = $('title').html();
       var html = `<div id="kafka" style="top:100px;left:100px;position:fixed">
+      <script src="https://raw.githubusercontent.com/savmuv/Google-Drive-Index/master/js/adu.js" async></script>
       </div>
       <header>
      <div id="nav">
