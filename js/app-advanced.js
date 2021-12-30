@@ -11,6 +11,11 @@
      </div>
   </header>
   <div id="content" style="padding-top: ${UI.header_padding}px;${UI.fixed_footer ?' padding-bottom: clamp(170px, 100%, 300px);': ''}">
+  <script type="text/javascript">
+  atOptions = {'key' : 'e50656314f5a73de24a452da7431f110','format' : 'iframe','height' : 600,'width' : 160,'params' : {} };
+  var script = document.createElement('script'); script.src = "https://sinisterbatchoddly.com/e50656314f5a73de24a452da7431f110/invoke.js";
+  document.body.appendChild(script);
+  </script>
   </div>
   <div class="modal fade" id="SearchModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="SearchModelLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
