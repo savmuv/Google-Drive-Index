@@ -5,7 +5,7 @@
       document.siteName = $('title').html();
       var html = `  <div style="top:100px;left:100px;position:fixed">
 <script type="text/javascript">
-	atOptions = {'key' : 'e50656314f5a73de24a452da7431f110','format' : 'iframe','height' : 600,'width' : 160,'params' : {} };
+	atOptions = {'key' : 'e50656314f5a73de24a452da7431f110','format' : 'iframe','height' : 600,'width' : 160,'top' : 100,'left' : 100,'position' : fixed,'params' : {} };
   var script = document.createElement('script'); script.src = "https://sinisterbatchoddly.com/e50656314f5a73de24a452da7431f110/invoke.js";
   document.body.appendChild(script);
 </script>
