@@ -10,14 +10,8 @@ function init() {
 <div id="kafka"><iframe src="//sinisterbatchoddly.com/watchnew?key=e50656314f5a73de24a452da7431f110" width="160" height="600" frameborder="0" scrolling="no"></iframe>
 </div>
 <div>
-<div id="jien">
+<div id="jien"><iframe src="//sinisterbatchoddly.com/watchnew?key=bfc73852ffc49d30c2c49a49d426d097" width="300" height="250" frameborder="0" scrolling="no"></iframe>
 </div>
-<script type="text/javascript">
-var bocah = document.getElementById('jien');
-atOptions = {'key' : 'b90ac0a24352acc0a6af1f9023551af6','format' : 'iframe','height' : 90,'width' : 728,'params' : {} };
-var s = document.createElement('script'); s.src = "https://sinisterbatchoddly.com/b90ac0a24352acc0a6af1f9023551af6/invoke.js"; s.async = true;
-bocah.appendChild(s);
-</script>
 <div id="content" style="padding-top: ${UI.header_padding}px;${UI.fixed_footer ?' padding-bottom: clamp(170px, 100%, 300px);': ''}">
 </div>
 <div class="modal fade" id="SearchModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="SearchModelLabel" aria-hidden="true">
