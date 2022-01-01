@@ -10,7 +10,7 @@ function init() {
  <div class="container" style="max-width:1200px;margin:0 auto;">
      <div class="row">
          <div id="sidebar" style="width: 300px;">
-             <div class="col-md-3" style="position: fixed;top: 85px;"><a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/W3RqhMCX/300250.jpg' border='0' alt='300250'/></a>
+             <div class="col-md-3" style="position: fixed;top: 125px;"><a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/W3RqhMCX/300250.jpg' border='0' alt='300250'/></a>
              </div>
          </div>
          <div id="content" class="col-md-8" style="position:relative;padding-top: ${UI.header_padding}px;${UI.fixed_footer ?' padding-bottom: clamp(170px, 100%, 300px);': ''}">
@@ -32,7 +32,7 @@ function init() {
    </div>
  </div>
  <br>
- <div class="footer mt-auto py-3" style="position: fixed;bottom: 90px;z-index: 9999;display: block;width: 100%;right: 0;">
+ <div class="footer mt-auto py-3" style="position: fixed;bottom: 80px;z-index: 9999;display: block;width: 100%;right: 0;">
      <div class="col-md-7 mx-auto"><a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/xdTQ3G1j/72890.jpg" alt="72890"/></a>
      </div>
  </div>
