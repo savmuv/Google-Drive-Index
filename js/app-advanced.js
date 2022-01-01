@@ -7,9 +7,14 @@ function init() {
    <div id="nav">
    </div>
 </header>
-<div>
-<div id="content" style="padding-top: ${UI.header_padding}px;${UI.fixed_footer ?' padding-bottom: clamp(170px, 100%, 300px);': ''}">
-</div>
+<div class="container" style="max-width:1200px;margin:0 auto;">
+    <div class="row">
+        <div id="sidebar" style="width: 300px;">
+            <div class="col-md-3"><a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/FHkqhk8F/160600.jpg' border='0' alt='160600'/></a>
+            </div>
+        </div>
+        <div id="content" class="col-md-8" style="position:relative;padding-top: ${UI.header_padding}px;${UI.fixed_footer ?' padding-bottom: clamp(170px, 100%, 300px);': ''}">
+        </div>
 <div class="modal fade" id="SearchModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="SearchModelLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -27,11 +32,13 @@ function init() {
   </div>
 </div>
 <br>
-<div id="kafka"><a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/FHkqhk8F/160600.jpg' border='0' alt='160600'/></a>
+<div class="footer mt-auto py-3" style="position: fixed;bottom: 100px;z-index: 9999;display: block;width: 100%;right: 0;">
+    <div class="col-md-7 mx-auto"><a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/xdTQ3G1j/72890.jpg" border="0" alt="72890"></a>
+    </div>
 </div>
-<div id="jien"><a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/W3RqhMCX/300250.jpg' border='0' alt='300250'/></a>
-</div>
-<footer class="footer mt-auto py-3 text-muted ${UI.footer_style_class}" style="${UI.fixed_footer ?'position: fixed; ': ''}left: 0; bottom: 0; width: 100%; color: white; z-index: 9999;${UI.hide_footer ? ' display:none;': ' display:block;'}"> <div class="container" style="width: auto; padding: 0 10px;"> <p class="float-end"> <a href="#">Back to top</a> </p> ${UI.credit ? '<p>Redesigned with <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart-fill" fill="red" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" /> </svg> by <a href="https://www.npmjs.com/package/@googledrive/index" target="_blank">TheFirstSpeedster</a>, based on Open Source Softwares.</p>' : ''} <p>© ${UI.copyright_year} - <a href=" ${UI.company_link}" target="_blank"> ${UI.company_name}</a>, All Rights Reserved.</p> </div> </footer>
+<footer class="footer mt-auto py-3 text-muted ${UI.footer_style_class}" style="${UI.fixed_footer ?'position: fixed; ': ''}left: 0; bottom: 0; width: 100%; color: white; z-index: 9999;${UI.hide_footer ? ' display:none;': ' display:block;'}">
+    <div class="container" style="width: auto; padding: 0 10px;"> <p class="float-end"> <a href="#">Back to top</a> </p> ${UI.credit ? '<p>Redesigned with <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart-fill" fill="red" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" /> </svg> by <a href="https://www.npmjs.com/package/@googledrive/index" target="_blank">TheFirstSpeedster</a>, based on Open Source Softwares.</p>' : ''} <p>© ${UI.copyright_year} - <a href=" ${UI.company_link}" target="_blank"> ${UI.company_name}</a>, All Rights Reserved.</p>
+    </div></footer>
   `;
     $('body').html(html);
 }
