@@ -44,7 +44,7 @@ function init() {
     </div>
 </footer>
   `;
-    $('body').html(html);
+    $('div.maincontent').html(html);
 }
 
 const Os = {
