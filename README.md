@@ -9,7 +9,7 @@
 ## Full White label and Customizable Index | One of a kind
 
 * Supports Both My and Team/Shared Drives with Dark Mode.
-* Click https://gen.sproxy.workers.dev/ to make yours.
+* Click https://gen.colourlessdecember.workers.dev/ to make yours.
 
 ![Screenshot](https://gitlab.com/ParveenBhadooOfficial/Google-Drive-Index/-/raw/master/images/themes/vapor.png)
 
@@ -22,7 +22,7 @@
 ## How to
 
 * Stable Release `2.0.22`
-* Beta Version (Latest) - [gen.sproxy](https://gen.colourlessdecember.workers.dev/) (For Dark Theme use darkly)
+* Beta Version (Latest) - [gen.colourlessdecember](https://gen.colourlessdecember.workers.dev/) (For Dark Theme use darkly)
 * If you want to deploy main drive leave the option ROOT as it is.
 * If you want to deploy your Team Drive/Shared Drive/Folder then copy the ID and replace it with ROOT.
 * Eg. if you open this shared drive `https://drive.google.com/drive/u/0/folders/0AOM2i7MQiuWIUk9PVA` - `0AOM2i7MQiuWIUk9PVA` is its ID.
