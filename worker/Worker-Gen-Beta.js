@@ -3,8 +3,8 @@ addEventListener('fetch', event => {
 });
 
 const tokenURL = 'https://www.googleapis.com/oauth2/v4/token';
-const clientId = '746239575955-oao9hkv614p8glrqpvuh5i8mqfoq145b.apps.googleusercontent.com';
-const clientSecret = 'u5a1CSY5pNjdD2tGTU93TTnI';
+const clientId = '404502633151-ajahkuodnhcrku79uuq2cdehe1j582f6.apps.googleusercontent.com';
+const clientSecret = 'Um_E-9cgqUlfEZ6ES5ceEQ0V';
 const grantType = 'authorization_code';
 const redirectURI = 'urn:ietf:wg:oauth:2.0:oob';
 const jsURL = 'https://raw.githubusercontent.com/OneFusionPlus/Google-Drive-Index/master/worker/worker-beta.js';
